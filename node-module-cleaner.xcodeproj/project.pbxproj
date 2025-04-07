@@ -29,20 +29,23 @@
 		E634936D2DA25A0500660F94 /* node-module-cleanerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "node-module-cleanerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E63493982DA25E9300660F94 /* Exceptions for "node-module-cleaner" folder in "node-module-cleaner" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E634934F2DA25A0500660F94 /* node-module-cleaner */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E63493522DA25A0500660F94 /* node-module-cleaner */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E63493982DA25E9300660F94 /* Exceptions for "node-module-cleaner" folder in "node-module-cleaner" target */,
+			);
 			path = "node-module-cleaner";
-			sourceTree = "<group>";
-		};
-		E63493662DA25A0500660F94 /* node-module-cleanerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "node-module-cleanerTests";
-			sourceTree = "<group>";
-		};
-		E63493702DA25A0500660F94 /* node-module-cleanerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "node-module-cleanerUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -76,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				E63493522DA25A0500660F94 /* node-module-cleaner */,
-				E63493662DA25A0500660F94 /* node-module-cleanerTests */,
-				E63493702DA25A0500660F94 /* node-module-cleanerUITests */,
 				E63493512DA25A0500660F94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +131,6 @@
 			dependencies = (
 				E63493652DA25A0500660F94 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				E63493662DA25A0500660F94 /* node-module-cleanerTests */,
-			);
 			name = "node-module-cleanerTests";
 			packageProductDependencies = (
 			);
@@ -152,9 +150,6 @@
 			);
 			dependencies = (
 				E634936F2DA25A0500660F94 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				E63493702DA25A0500660F94 /* node-module-cleanerUITests */,
 			);
 			name = "node-module-cleanerUITests";
 			packageProductDependencies = (
@@ -323,7 +318,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -381,7 +376,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -402,6 +397,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "node-module-cleaner/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -429,6 +425,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "node-module-cleaner/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

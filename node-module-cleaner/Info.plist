@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSFileProviderDomainUsageDescription</key>
+	<string>This app needs access to scan your directories for node_modules folders.</string>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>This app needs access to scan for node_modules folders.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>This app needs access to scan for node_modules folders.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>This app needs access to scan for node_modules folders.</string>
+	<key>NSHomeDirectoryUsageDescription</key>
+	<string>This app needs access to scan your home directory for node_modules folders.</string>
+</dict>
+</plist>
